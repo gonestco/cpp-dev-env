@@ -9,3 +9,6 @@ RUN apt-get -qq update \
     && pip install -q --no-cache-dir gcovr
 
 USER conan
+WORKDIR /home/conan
+
+ENTRYPOINT []
