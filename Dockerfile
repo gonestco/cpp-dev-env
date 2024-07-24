@@ -1,4 +1,4 @@
-FROM conanio/gcc7:latest
+FROM conanio/gcc11-ubuntu16.04-jenkins:latest
 
 USER root
 
